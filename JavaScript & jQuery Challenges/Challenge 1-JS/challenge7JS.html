@@ -25,7 +25,12 @@
     </div>
     
     <script>
-            
+        var colorChangePara = document.querySelectorAll("#main p:nth-child(even)");
+
+        for(var i=0; i<colorChangePara.length; i++){
+            colorChangePara[i].style.color = "red";
+        };
     </script>
+    
 </body>
 </html>
