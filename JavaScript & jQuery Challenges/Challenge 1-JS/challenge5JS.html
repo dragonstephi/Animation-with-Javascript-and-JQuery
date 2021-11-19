@@ -16,8 +16,10 @@
     </div>
 
     <script>
-        document.querySelector("#main").lastElementChild.style.fontSize = "24px";
-        document.querySelector("#main").lastElementChild.style.color = "red";
+        var lastpara = document.querySelector("#main p:last-of-type");
+        
+            lastpara.style.fontSize = "24px";
+            lastpara.style.color = "red";
     </script>
 </body>
 </html>
