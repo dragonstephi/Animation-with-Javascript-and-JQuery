@@ -27,10 +27,7 @@
     for(var i=0; i<clickLink.length; i++){
         clickLink[i].addEventListener('click', function(event){
             event.preventDefault();
-            
-            var thisClickLink = this.parentNode.querySelector('a');
-
-            alert(thisClickLink.innerHTML);
+            alert(this.innerHTML);
         });
     };
     
