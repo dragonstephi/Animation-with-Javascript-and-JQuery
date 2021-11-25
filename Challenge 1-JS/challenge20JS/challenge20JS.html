@@ -29,15 +29,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" ></script>
     <script>
         $('nav ul li a').click(function(){
-            //var thisPara = $('#para') + this.id;
-            var x = $('#para') + $(this).attr('para');
-            alert($('x').html); 
-
-            $(x).css('color', 'red');
-
-           /*  var defaultPara = $('#para') + $(this);
-            $('defaultPara').css('color', 'black'); */
-        })
+            var id = '#para' + $(this).attr('id')
+            $('p').css('color', 'black');
+            $(id).css('color', 'red');
+        });
     </script>
 </body>
 </html>
