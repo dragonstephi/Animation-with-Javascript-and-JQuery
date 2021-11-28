@@ -11,8 +11,7 @@ for(var i=0; i<tabsLink.length; i++){
         } else {
             
         }
-        //this.classList.add('active');
-        
+       
     });
 };
 console.log(tabsLink.innerHTML);
