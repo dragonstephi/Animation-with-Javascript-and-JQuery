@@ -29,10 +29,8 @@ $(window).on('load', function(){
         pageTop = $(window).scrollTop() + 210;
         if(pageTop > postTops[counter+1]){
             counter ++;
-            /* console.log(`scrolling down ${counter}`); */
         } else if(counter > 0 && pageTop <postTops[counter]){
             counter --;
-            /* console.log(`scrolling up! ${counter}`); */
         }
 
         if( counter != prevCounter){
