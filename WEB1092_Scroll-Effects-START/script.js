@@ -27,6 +27,6 @@ window.addEventListener('load', function(){
 
     window.addEventListener('scroll', function(){
         pagetop = window.pageYOffset;
-        console.log(pagetop) + 250;
+        //console.log(pagetop) + 250;
     });
 });
