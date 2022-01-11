@@ -45,7 +45,7 @@ $(window).on('load', function(){
         doneResizing = setTimeout(function(){
             
             resetPagePositions();
-            
+            //console.log('test');
         }, 500);
     });
 
